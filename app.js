@@ -29,7 +29,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler')
 app.use(express.json());
 app.use(helmet());
 app.use(cors({
-    origin: "https://alegb91.github.io/TaskManager"
+    origin: "https://alegb91.github.io"
 }))
 app.use(xss())
 
